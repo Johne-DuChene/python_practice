@@ -29,5 +29,11 @@ def fib(n):
         previous = current
         # current number is the next
         current = next
+    # return the sequence
     return print(fibo)
+# call it on the int function which
+# is called on the input function
+# which takes in a number as a string
+# and converts it to an int before
+# running the function on it.
 fib(int(input("Give me a number: ")))
